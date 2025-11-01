@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+unsigned int a=-10;
+int b=45,c=78;
+clrscr();
+double sum=a+b+c;
+char grade='b';
+printf("%u\n",a);
+printf("%c \n",grade);
+printf("%2lf\n",sum);
+printf("%c \n",sizeof(grade));
+printf("%lf \n",sizeof(sum));
+getch();
+ }
